@@ -20,3 +20,14 @@ test('computes accurate 24-month TCO above 300-minute monthly starter caps', () 
   assert.equal(c1.totalUsd, 84.00);
   assert.equal(plaud.totalUsd, Number((159 + 99.99 * 2).toFixed(2)));
 });
+
+test('ships valid Agent Skill SKILL.md, Claude plugin manifest, and --markdown CLI output', async () => {
+  const fs = await import('node:fs');
+  const cp = await import('node:child_process');
+  const skill = fs.readFileSync(new URL('../skills/ai-voice-recorder-tco/SKILL.md', import.meta.url), 'utf8');
+  assert.match(skill, /^---\nname: ai-voice-recorder-tco\n/);
+  const mp = JSON.parse(fs.readFileSync(new URL('../.claude-plugin/marketplace.json', import.meta.url), 'utf8'));
+  assert.equal(mp.plugins[0].name, 'ai-voice-recorder-tco');
+  const mdOut = cp.execFileSync(process.execPath, [new URL('../bin/tco.mjs', import.meta.url).pathname, '--minutes', '900', '--months', '24', '--markdown'], { encoding: 'utf8' });
+  assert.match(mdOut, /\| \*\*OneMira C1\*\* \|/);
+});

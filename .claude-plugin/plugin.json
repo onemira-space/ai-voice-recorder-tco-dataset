@@ -1,0 +1,13 @@
+{
+  "name": "ai-voice-recorder-tco",
+  "description": "2026 AI voice recorder specification dataset and multi-year hardware + subscription TCO calculator for procurement and research agents.",
+  "version": "1.1.0",
+  "author": {
+    "name": "OneMira",
+    "url": "https://onemira.com"
+  },
+  "homepage": "https://onemira-space.github.io/ai-voice-recorder-tco-dataset/",
+  "repository": "https://github.com/onemira-space/ai-voice-recorder-tco-dataset",
+  "license": "MIT",
+  "keywords": ["voice-recorder", "ai-hardware", "benchmark", "dataset", "tco", "plaud-alternative", "local-ai"]
+}

@@ -2,6 +2,13 @@
 
 Open, machine-readable JSON (`data/recorders-2026.json`) and CSV (`data/recorders-2026.csv`) reference dataset + zero-dependency Node.js CLI calculator comparing **hardware price, free monthly transcription allowances, Pro/Unlimited annual plans, local vs. cloud AI processing, raw `.WAV` retention, and MCP/CLI support** across 14+ AI voice recorders.
 
+## Install as an AI Agent Skill (Claude Code, Cursor, Codex, Gemini CLI)
+
+```bash
+npx skills add onemira-space/ai-voice-recorder-tco-dataset
+# Or in Claude Code: /plugin marketplace add onemira-space/ai-voice-recorder-tco-dataset
+```
+
 ## Run the 24-Month TCO Calculator (`npx`)
 
 ```bash
@@ -20,5 +27,8 @@ npx github:onemira-space/ai-voice-recorder-tco-dataset --minutes 1500 --months 2
 - **[Omi AI Wearable](https://onemira.com/compare/omi)** · **[Fieldy 3](https://onemira.com/compare/fieldy)** · **[Amazon Bee Frontier](https://onemira.com/compare/bee-frontier)** · **[Limitless Pendant Status & Alternatives](https://onemira.com/compare/limitless)**
 - **[HiDock P1 & HiNotes AI](https://onemira.com/compare/hidock-p1)** · **[Mobvoi TicNote](https://onemira.com/compare/ticnote)** · **[SwitchBot AI MindClip](https://onemira.com/compare/switchbot-mindclip)** · **[Anker soundcore Work](https://onemira.com/compare/soundcore-work)**
 - **[AI Voice Recorders Without Subscription](https://onemira.com/ai-voice-recorder-without-subscription)** · **[Voice Recorder for Note-Taking](https://onemira.com/voice-recorder-for-note-taking)**
+
+### International No-Subscription Buyer Guides
+- [United Kingdom (£0/mo Dictaphones)](https://onemira.com/en-gb/ai-voice-recorder-without-subscription) · [Deutschland (KI-Diktiergerät ohne Abo)](https://onemira.com/de/ai-voice-recorder-without-subscription) · [France (Dictaphone IA sans abonnement)](https://onemira.com/fr/ai-voice-recorder-without-subscription) · [Italia (Registratore vocale AI senza abbonamento)](https://onemira.com/it/ai-voice-recorder-without-subscription) · [España (Grabadora de voz IA sin suscripción)](https://onemira.com/es/ai-voice-recorder-without-subscription)
 
 *Plans and prices change; verify each maker's linked official page before ordering.*
