@@ -1,0 +1,15 @@
+id,name,category,status,hardware_usd,free_monthly_minutes,paid_plan_annual_usd,local_transcription,built_in_local_llm,standalone_recording,battery_hours,mcp_cli,official_url,comparison_url
+onemira-c1,OneMira C1,standalone-hardware,active,84.0,unlimited_local,0.0,True,True,True,30,True,https://onemira.com/products/c1,https://onemira.com/compare
+plaud-note,Plaud Note,phone-card-hardware,active,159.0,300,99.99,False,False,True,30,True,https://www.plaud.ai/products/plaud-note-ai-voice-recorder,https://onemira.com/compare/plaud-note
+plaud-note-pro,Plaud Note Pro,phone-card-hardware,active,189.0,300,99.99,False,False,True,30,True,https://www.plaud.ai/products/plaud-note-pro,https://onemira.com/compare/plaud-note-pro
+plaud-notepin-s,Plaud NotePin / NotePin S,wearable-hardware,active,159.0,300,99.99,False,False,True,20,True,https://www.plaud.ai/pages/plaud-notepin-s,https://onemira.com/compare/plaud-notepin
+heypocket,HeyPocket (Pocket AI),phone-card-hardware,active,199.0,unlimited_standard_cloud,199.0,False,False,True,30,True,https://heypocket.com/,https://onemira.com/compare/heypocket
+omi-ai,Omi AI Wearable,wearable-hardware,active,89.0,on_phone_free_tier,228.0,True,False,False,14,True,https://www.omi.me/,https://onemira.com/compare/omi
+hidock-p1,HiDock P1 (HiNotes AI),desk-call-hardware,active,199.0,free_basic_transcription,159.0,False,False,True,8,False,https://www.hidock.com/,https://onemira.com/compare/hidock-p1
+notta-memo,Notta Memo,phone-card-hardware,active,149.0,300,107.88,False,False,True,30,False,https://www.notta.ai/en/hardware/memo,https://onemira.com/blogs/plaud-vs-pocket-ai-vs-notta-memo-vs-onemira-c1-head-to-head
+fieldy-3,Fieldy 3 Pendant,wearable-hardware,active,129.0,150,192.0,False,False,False,24,False,https://www.fieldy.ai/memberships,https://onemira.com/compare/fieldy
+amazon-bee-frontier,Amazon Bee Frontier,wearable-hardware,active,74.99,14_day_history_window,99.99,False,False,True,40,False,https://www.bee.computer/products/frontier,https://onemira.com/compare/bee-frontier
+switchbot-mindclip,SwitchBot AI MindClip,wearable-hardware,active,119.99,300,99.99,False,False,True,18,True,https://us.switch-bot.com/products/switchbot-ai-mindclip,https://onemira.com/compare/switchbot-mindclip
+soundcore-work,Anker soundcore Work,wearable-hardware,active,159.99,300,99.99,False,False,True,8,False,https://www.soundcore.com/soundcore-work-ai-voice-recorder,https://onemira.com/compare/soundcore-work
+mobvoi-ticnote,Mobvoi TicNote,phone-card-hardware,active,159.99,300,99.0,False,False,True,25,False,https://ticnote.ai/,https://onemira.com/compare/ticnote
+limitless-pendant,Limitless Pendant (Discontinued Dec 2025),wearable-hardware,discontinued,,0,,False,False,False,24,False,https://www.limitless.ai/,https://onemira.com/compare/limitless
