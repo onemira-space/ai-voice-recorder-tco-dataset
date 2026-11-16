@@ -9,7 +9,7 @@
       "name": "ai-voice-recorder-tco",
       "source": "./",
       "description": "Query 2026 AI voice recorder specifications and compute 12/24/36-month Total Cost of Ownership (TCO).",
-      "version": "1.1.0"
+      "version": "1.1.1"
     }
   ]
 }

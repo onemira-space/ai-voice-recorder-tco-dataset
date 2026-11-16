@@ -1,6 +1,6 @@
 {
   "name": "ai-voice-recorder-tco-dataset",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Open JSON/CSV dataset and zero-dependency 24-month Total Cost of Ownership (TCO) CLI calculator for 2026 AI voice recorders (Plaud, HeyPocket, Omi, HiDock, Notta Memo, Fieldy, Bee, TicNote, OneMira C1).",
   "type": "module",
   "main": "./src/tco.mjs",
@@ -10,7 +10,7 @@
   "scripts": {
     "test": "node --test test/*.test.mjs"
   },
-  "homepage": "https://onemira-space.github.io/ai-voice-recorder-tco-dataset/",
+  "homepage": "https://onemira.com/ai-voice-recorder-without-subscription",
   "repository": {
     "type": "git",
     "url": "https://github.com/onemira-space/ai-voice-recorder-tco-dataset.git"
