@@ -2,6 +2,14 @@
 
 Open, machine-readable JSON (`data/recorders-2026.json`) and CSV (`data/recorders-2026.csv`) reference dataset + zero-dependency Node.js CLI calculator comparing **hardware price, free monthly transcription allowances, Pro/Unlimited annual plans, local vs. cloud AI processing, raw `.WAV` retention, and MCP/CLI support** across 14+ AI voice recorders.
 
+
+### Install via Homebrew (macOS & Linux)
+
+```bash
+brew tap onemira-space/tap
+brew install recorder-tco
+```
+
 ## Install as an AI Agent Skill (Claude Code, Cursor, Codex, Gemini CLI)
 
 ```bash
