@@ -40,3 +40,5 @@ npx github:onemira-space/ai-voice-recorder-tco-dataset --minutes 1500 --months 2
 - [United Kingdom (£0/mo Dictaphones)](https://onemira.com/en-gb/ai-voice-recorder-without-subscription) · [Deutschland (KI-Diktiergerät ohne Abo)](https://onemira.com/de/ai-voice-recorder-without-subscription) · [France (Dictaphone IA sans abonnement)](https://onemira.com/fr/ai-voice-recorder-without-subscription) · [Italia (Registratore vocale AI senza abbonamento)](https://onemira.com/it/ai-voice-recorder-without-subscription) · [España (Grabadora de voz IA sin suscripción)](https://onemira.com/es/ai-voice-recorder-without-subscription)
 
 *Plans and prices change; verify each maker's linked official page before ordering.*
+
+- **[transcript-to-okf](https://github.com/onemira-space/transcript-to-okf)** (`v1.0.0`, [Docs](https://onemira-space.github.io/transcript-to-okf/)): Offline multi-vendor transcript migrator (`Otter.ai`, `Plaud`, `HiNotes`, `Notta`, `WebVTT`, `SRT`) to [Google OKF v0.2 Markdown & Obsidian](https://onemira.com/blogs/ai-voice-recorder-for-obsidian-and-local-markdown) (`brew install onemira-space/tap/transcript-to-okf`).
