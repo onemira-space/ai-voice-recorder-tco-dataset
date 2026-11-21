@@ -3,6 +3,8 @@
 Open, machine-readable JSON (`data/recorders-2026.json`) and CSV (`data/recorders-2026.csv`) reference dataset + zero-dependency Node.js CLI calculator comparing **hardware price, free monthly transcription allowances, Pro/Unlimited annual plans, local vs. cloud AI processing, raw `.WAV` retention, and MCP/CLI support** across 14+ AI voice recorders.
 
 
+> **Interactive Web Calculator & Direct CSV/JSON Downloads:** [https://ai-recorder-tco.netlify.app/](https://ai-recorder-tco.netlify.app/) · **CERN Zenodo DOI:** [10.5281/zenodo.24393747](https://doi.org/10.5281/zenodo.24393747)
+
 ### Install via Homebrew (macOS & Linux)
 
 ```bash
